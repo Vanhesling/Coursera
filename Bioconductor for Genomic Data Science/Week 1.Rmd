@@ -1,0 +1,45 @@
+---
+title: "Week 1"
+author: "Kevin Chu"
+date: "2017/8/14"
+output:
+  rmarkdown::html_document:
+    toc: true
+  vignette: >  
+    %\VignetteIndexEntry{Calculating statistics}
+    %\VignetteEngine{knitr::rmarkdown}
+    \usepackage[utf8]{inputenc}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Installing Bioconductor
+
+Install the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands.
+
+```{r cars, eval=FALSE}
+source("https://bioconductor.org/biocLite.R")
+biocLite()
+```
+
+## Useful Online Resources
+
+You can find a lot useful online resources in:
+
+* The [Bioconductor support site](https://support.bioconductor.org)
+* The [Stackoverflow](https://stackoverflow.com/search?q=bioconductor)
+* The [rdocumentation](https://www.rdocumentation.org)
+* The [rseek](www.rseek.org)
+
+## GRanges - Overview
+A GRanges is a data structure for storing genomic intervals.
+## IRanges - Basic Usage
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
