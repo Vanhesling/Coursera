@@ -26,15 +26,15 @@ biocLite()
 
 ## Useful Online Resources
 
-You can find a lot useful online resources in:
-
 * The [Bioconductor support site](https://support.bioconductor.org)
 * The [Stackoverflow](https://stackoverflow.com/search?q=bioconductor)
 * The [rdocumentation](https://www.rdocumentation.org)
 * The [rseek](www.rseek.org)
 
 ## GRanges - Overview
+
 A GRanges is a data structure for storing genomic intervals.
+
 ## IRanges - Basic Usage
 
 
